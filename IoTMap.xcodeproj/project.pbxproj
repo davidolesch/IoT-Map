@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D4CDDEE121BDFC09488B166 /* libPods-IoTMap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8049EFCE27FF908F5F91245 /* libPods-IoTMap.a */; };
+		D37E67FE1B59685900511E18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E67FD1B59685900511E18 /* main.m */; };
+		D37E68011B59685900511E18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E68001B59685900511E18 /* AppDelegate.m */; };
+		D37E68071B59685900511E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37E68051B59685900511E18 /* Main.storyboard */; };
+		D37E68091B59685900511E18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37E68081B59685900511E18 /* Images.xcassets */; };
+		D37E680C1B59685900511E18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D37E680A1B59685900511E18 /* LaunchScreen.xib */; };
+		D37E68181B59685900511E18 /* IoTMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E68171B59685900511E18 /* IoTMapTests.m */; };
+		D37E68221B5968D400511E18 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D37E68211B5968D400511E18 /* MapKit.framework */; };
+		D37E68251B596AF700511E18 /* DOMapDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E68241B596AF700511E18 /* DOMapDataManager.m */; };
+		D37E682B1B596BFA00511E18 /* DOMapDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E682A1B596BFA00511E18 /* DOMapDataViewController.m */; };
+		D37E682E1B5974B600511E18 /* DOMapDataWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E682D1B5974B600511E18 /* DOMapDataWebService.m */; };
+		D37E68311B5978E400511E18 /* DOMapDataFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = D37E68301B5978E400511E18 /* DOMapDataFeature.m */; };
+		D38C93251B75092C008F2165 /* MKPointAnnotation+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D38C93241B75092C008F2165 /* MKPointAnnotation+Blocks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D37E68121B59685900511E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D37E67F01B59685900511E18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37E67F71B59685900511E18;
+			remoteInfo = IoTMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F77F3822EFF246617085832 /* Pods-IoTMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IoTMap/Pods-IoTMap.debug.xcconfig"; sourceTree = "<group>"; };
+		AB26CE6A4223DFCD276D5257 /* Pods-IoTMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-IoTMap/Pods-IoTMap.release.xcconfig"; sourceTree = "<group>"; };
+		D37E67F81B59685900511E18 /* IoTMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37E67FC1B59685900511E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37E67FD1B59685900511E18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D37E67FF1B59685900511E18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D37E68001B59685900511E18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D37E68061B59685900511E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D37E68081B59685900511E18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D37E680B1B59685900511E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D37E68111B59685900511E18 /* IoTMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IoTMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D37E68161B59685900511E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D37E68171B59685900511E18 /* IoTMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IoTMapTests.m; sourceTree = "<group>"; };
+		D37E68211B5968D400511E18 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D37E68231B596AF700511E18 /* DOMapDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOMapDataManager.h; sourceTree = "<group>"; };
+		D37E68241B596AF700511E18 /* DOMapDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOMapDataManager.m; sourceTree = "<group>"; };
+		D37E68291B596BFA00511E18 /* DOMapDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOMapDataViewController.h; sourceTree = "<group>"; };
+		D37E682A1B596BFA00511E18 /* DOMapDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOMapDataViewController.m; sourceTree = "<group>"; };
+		D37E682C1B5974B600511E18 /* DOMapDataWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOMapDataWebService.h; sourceTree = "<group>"; };
+		D37E682D1B5974B600511E18 /* DOMapDataWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOMapDataWebService.m; sourceTree = "<group>"; };
+		D37E682F1B5978E400511E18 /* DOMapDataFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOMapDataFeature.h; sourceTree = "<group>"; };
+		D37E68301B5978E400511E18 /* DOMapDataFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOMapDataFeature.m; sourceTree = "<group>"; };
+		D38C93231B75092C008F2165 /* MKPointAnnotation+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKPointAnnotation+Blocks.h"; sourceTree = "<group>"; };
+		D38C93241B75092C008F2165 /* MKPointAnnotation+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKPointAnnotation+Blocks.m"; sourceTree = "<group>"; };
+		D8049EFCE27FF908F5F91245 /* libPods-IoTMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IoTMap.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D37E67F51B59685900511E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37E68221B5968D400511E18 /* MapKit.framework in Frameworks */,
+				5D4CDDEE121BDFC09488B166 /* libPods-IoTMap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37E680E1B59685900511E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3263037744F19A0570FB11F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F77F3822EFF246617085832 /* Pods-IoTMap.debug.xcconfig */,
+				AB26CE6A4223DFCD276D5257 /* Pods-IoTMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D37E67EF1B59685900511E18 = {
+			isa = PBXGroup;
+			children = (
+				D37E67FA1B59685900511E18 /* IoTMap */,
+				D37E68141B59685900511E18 /* IoTMapTests */,
+				D37E67F91B59685900511E18 /* Products */,
+				3263037744F19A0570FB11F1 /* Pods */,
+				D831D88F52C4C8173D6D1E2A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D37E67F91B59685900511E18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D37E67F81B59685900511E18 /* IoTMap.app */,
+				D37E68111B59685900511E18 /* IoTMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D37E67FA1B59685900511E18 /* IoTMap */ = {
+			isa = PBXGroup;
+			children = (
+				D37E67FF1B59685900511E18 /* AppDelegate.h */,
+				D37E68001B59685900511E18 /* AppDelegate.m */,
+				D37E68321B597BC400511E18 /* Model */,
+				D38C93261B751481008F2165 /* View Controllers */,
+				D38C93271B75148B008F2165 /* Categories */,
+				D37E68051B59685900511E18 /* Main.storyboard */,
+				D37E68081B59685900511E18 /* Images.xcassets */,
+				D37E680A1B59685900511E18 /* LaunchScreen.xib */,
+				D37E67FB1B59685900511E18 /* Supporting Files */,
+			);
+			path = IoTMap;
+			sourceTree = "<group>";
+		};
+		D37E67FB1B59685900511E18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D37E68211B5968D400511E18 /* MapKit.framework */,
+				D37E67FC1B59685900511E18 /* Info.plist */,
+				D37E67FD1B59685900511E18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D37E68141B59685900511E18 /* IoTMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				D37E68171B59685900511E18 /* IoTMapTests.m */,
+				D37E68151B59685900511E18 /* Supporting Files */,
+			);
+			path = IoTMapTests;
+			sourceTree = "<group>";
+		};
+		D37E68151B59685900511E18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D37E68161B59685900511E18 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D37E68321B597BC400511E18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D37E68231B596AF700511E18 /* DOMapDataManager.h */,
+				D37E68241B596AF700511E18 /* DOMapDataManager.m */,
+				D37E682C1B5974B600511E18 /* DOMapDataWebService.h */,
+				D37E682D1B5974B600511E18 /* DOMapDataWebService.m */,
+				D37E682F1B5978E400511E18 /* DOMapDataFeature.h */,
+				D37E68301B5978E400511E18 /* DOMapDataFeature.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D38C93261B751481008F2165 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D37E68291B596BFA00511E18 /* DOMapDataViewController.h */,
+				D37E682A1B596BFA00511E18 /* DOMapDataViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D38C93271B75148B008F2165 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D38C93231B75092C008F2165 /* MKPointAnnotation+Blocks.h */,
+				D38C93241B75092C008F2165 /* MKPointAnnotation+Blocks.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		D831D88F52C4C8173D6D1E2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8049EFCE27FF908F5F91245 /* libPods-IoTMap.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D37E67F71B59685900511E18 /* IoTMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37E681B1B59685900511E18 /* Build configuration list for PBXNativeTarget "IoTMap" */;
+			buildPhases = (
+				3F5BE1AF07E73A84BBC81212 /* Check Pods Manifest.lock */,
+				D37E67F41B59685900511E18 /* Sources */,
+				D37E67F51B59685900511E18 /* Frameworks */,
+				D37E67F61B59685900511E18 /* Resources */,
+				3644E97C00F9B8A0C9CFC266 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IoTMap;
+			productName = IoTMap;
+			productReference = D37E67F81B59685900511E18 /* IoTMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D37E68101B59685900511E18 /* IoTMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D37E681E1B59685900511E18 /* Build configuration list for PBXNativeTarget "IoTMapTests" */;
+			buildPhases = (
+				D37E680D1B59685900511E18 /* Sources */,
+				D37E680E1B59685900511E18 /* Frameworks */,
+				D37E680F1B59685900511E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D37E68131B59685900511E18 /* PBXTargetDependency */,
+			);
+			name = IoTMapTests;
+			productName = IoTMapTests;
+			productReference = D37E68111B59685900511E18 /* IoTMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D37E67F01B59685900511E18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "David Olesch";
+				TargetAttributes = {
+					D37E67F71B59685900511E18 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D37E68101B59685900511E18 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D37E67F71B59685900511E18;
+					};
+				};
+			};
+			buildConfigurationList = D37E67F31B59685900511E18 /* Build configuration list for PBXProject "IoTMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D37E67EF1B59685900511E18;
+			productRefGroup = D37E67F91B59685900511E18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D37E67F71B59685900511E18 /* IoTMap */,
+				D37E68101B59685900511E18 /* IoTMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D37E67F61B59685900511E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37E68071B59685900511E18 /* Main.storyboard in Resources */,
+				D37E680C1B59685900511E18 /* LaunchScreen.xib in Resources */,
+				D37E68091B59685900511E18 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37E680F1B59685900511E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3644E97C00F9B8A0C9CFC266 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IoTMap/Pods-IoTMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F5BE1AF07E73A84BBC81212 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D37E67F41B59685900511E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38C93251B75092C008F2165 /* MKPointAnnotation+Blocks.m in Sources */,
+				D37E682E1B5974B600511E18 /* DOMapDataWebService.m in Sources */,
+				D37E682B1B596BFA00511E18 /* DOMapDataViewController.m in Sources */,
+				D37E68251B596AF700511E18 /* DOMapDataManager.m in Sources */,
+				D37E68011B59685900511E18 /* AppDelegate.m in Sources */,
+				D37E68311B5978E400511E18 /* DOMapDataFeature.m in Sources */,
+				D37E67FE1B59685900511E18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37E680D1B59685900511E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37E68181B59685900511E18 /* IoTMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D37E68131B59685900511E18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D37E67F71B59685900511E18 /* IoTMap */;
+			targetProxy = D37E68121B59685900511E18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D37E68051B59685900511E18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37E68061B59685900511E18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D37E680A1B59685900511E18 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D37E680B1B59685900511E18 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D37E68191B59685900511E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D37E681A1B59685900511E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D37E681C1B59685900511E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F77F3822EFF246617085832 /* Pods-IoTMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 7;
+				INFOPLIST_FILE = IoTMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		D37E681D1B59685900511E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB26CE6A4223DFCD276D5257 /* Pods-IoTMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jackrabbit Mobile LLC (DB34EU8XZ5)";
+				CURRENT_PROJECT_VERSION = 7;
+				INFOPLIST_FILE = IoTMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		D37E681F1B59685900511E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IoTMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IoTMap.app/IoTMap";
+			};
+			name = Debug;
+		};
+		D37E68201B59685900511E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IoTMapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IoTMap.app/IoTMap";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D37E67F31B59685900511E18 /* Build configuration list for PBXProject "IoTMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37E68191B59685900511E18 /* Debug */,
+				D37E681A1B59685900511E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37E681B1B59685900511E18 /* Build configuration list for PBXNativeTarget "IoTMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37E681C1B59685900511E18 /* Debug */,
+				D37E681D1B59685900511E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D37E681E1B59685900511E18 /* Build configuration list for PBXNativeTarget "IoTMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D37E681F1B59685900511E18 /* Debug */,
+				D37E68201B59685900511E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D37E67F01B59685900511E18 /* Project object */;
+}
